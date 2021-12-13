@@ -1,0 +1,10 @@
+plugin: amazon.aws.aws_ec2
+boto_profile: devopsuser
+regions:
+  - us-west-2
+strict: False
+keyed_groups:
+  - prefix: tag
+    key: 'tags'
+compose:
+  ansible_host: ip_address
