@@ -1,5 +1,5 @@
 plugin: amazon.aws.aws_ec2
-aws_profile: ~/.aws/credentials/devopsuser
+aws_profile: devopsuser
 regions:
   - us-west-2
 strict: False
